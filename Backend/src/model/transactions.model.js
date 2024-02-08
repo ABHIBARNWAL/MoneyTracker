@@ -6,7 +6,11 @@ const transactionSchema=new Schema(
             type:String,
             required:true
         },
-        datatime:{
+        price:{
+            type:Number,
+            required:true
+        },
+        datetime:{
             type:String,
             required:true
         },

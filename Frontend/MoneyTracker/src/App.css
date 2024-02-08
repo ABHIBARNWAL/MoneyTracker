@@ -19,7 +19,7 @@ main{
   max-width: 480px;
   background-color: rgb(47, 47, 47);
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  color: rgb(186, 186, 189);
+  color: rgb(247, 247, 247);
   font-size: x-large;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   border-radius: 5px;
@@ -27,6 +27,13 @@ main{
 h1{
   text-align: center;
   margin:0;
+  font-size: 3rem;
+}
+h1 span{
+  font-size: 1rem;
+  vertical-align: top;
+  display: inline-block;
+  margin-top: 10px;
 }
 form{
   margin-top: 12px;
