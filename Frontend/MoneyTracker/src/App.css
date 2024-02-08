@@ -1,0 +1,86 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.plus{
+  color: green;
+}
+.sub{
+  color: red;
+}
+body{
+  background-color: rgb(36, 35, 35);
+}
+main{
+  height:auto;
+  margin: 30px auto;
+  padding: 20px;
+  max-width: 480px;
+  background-color: rgb(47, 47, 47);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  color: rgb(186, 186, 189);
+  font-size: x-large;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 5px;
+}
+h1{
+  text-align: center;
+  margin:0;
+}
+form{
+  margin-top: 12px;
+}
+form input{
+  width: 100%;
+  background: transparent;
+  padding:4px 8px;
+  border: 2px solid rgb(105, 104, 104);
+  color: rgb(123, 122, 122);
+  font-size:large;
+  border-radius: 5px;
+}
+form input[type="datetime-local"]{
+  color: rgb(123, 122, 122);
+}
+form div.basics{
+  display: flex;
+  gap:5px;
+  margin-bottom: 5px;
+}
+form button{
+  width: 100%;
+  font-size: large;
+  font-weight:bold;
+  min-height: 40px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  border:none;
+  border-radius: 5px;
+  background-color: #c7c7c7;
+}
+.transactions .transaction{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: 10px;
+  border: 1px solid rgb(10, 10, 10);
+  color: rgba(198, 167, 72, 0.787);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 15px;
+  padding: 2px 6px;
+  background-color: rgb(30, 30, 30);
+}
+.transactions .transaction .left{
+  text-align: left;
+}
+.transactions .transaction .right{
+  text-align: right;
+}
+.transactions .transaction .name{
+  font-size: 25px;
+  color: rgba(254, 214, 93, 0.787);
+}
+.transactions .transaction .price{
+  font-size: 25px;
+}
